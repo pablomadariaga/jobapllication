@@ -1,0 +1,61 @@
+export default {
+    name: "name",
+    permanent_phone: "permanent phone",
+    first_name: "first name",
+    last_name: "last name",
+    present_zip: "present zip",
+    present_phone: "present phone",
+    permanent_address: "permanent address",
+    permanent_zip: "permanent zip",
+    present_address: "present address",
+    start_date: "start date",
+    position: "position",
+    permanent_state: "permanent state",
+    permanent_city: "permanent city",
+    present_state: "present state",
+    present_city: "present city",
+    account: "account",
+    username: "username",
+    password: "password",
+    email: "email",
+    identification: "identification",
+    password_confirmation: "password confirmation",
+    current_password: "current password",
+    confirmable_password: "confirmable password",
+    role: "role",
+    description: "description",
+    unit: "unit",
+    code: "code",
+    value: "value",
+    image: "image",
+    next: "Next",
+    close: "close",
+    requesting_process: "requesting process",
+    measurement_unit: "measurement unit",
+    role_permissions: "role permissions",
+    requiredIf: `[FIELD] is required`,
+    "Select an option": "Select an option",
+    Search: "Search",
+    "Sorry nothing to see here": "Sorry nothing to see here",
+    "At least 2 characters": "At least 2 characters",
+    "Start typing to search": "Start typing to search",
+    Searching: "Searching",
+    "The wallet is incorrectly formatted":
+        "The wallet is incorrectly formatted",
+    "Password confirmation needs to match password":
+        "Password confirmation needs to match password",
+    expired_page:
+        "This page has expired.\nThe page will be updated, log in again if necessary",
+    tour_menu:
+        "Here you can find a side menu with each section within the system, some contain a submenu to access the list or creation of the selected menu",
+    tour_bars:
+        "By clicking here you can hide/see the side menu to make the most of the space of the application according to the need",
+    tour_customizer:
+        "Here you will find the system customizer, where you can change the language and color scheme",
+    tour_cutomizer_menu:
+        "You can toggle the platform color and change the language",
+    tour_profile_menu:
+        "Here you can administer the information of your profile and close your session",
+    tour_dashboard:
+        "Here you will find a summary of the transactions within the system and some direct accesses",
+};

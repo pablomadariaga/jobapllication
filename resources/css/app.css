@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    cursor: pointer;
+}
+*::-webkit-scrollbar-track {
+    cursor: pointer;
+    @apply bg-neutral-900;
+}
+*::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    @apply bg-amber-600;
+}
+
+.bg-app{
+    background-image: url(https://thepineappletequila.com/img/menu-background.webp);
+    background-size: cover;
+    background-position: 25%;
+}
+
+.spinner {
+    -webkit-animation: rotateSpinner 2s linear infinite;
+            animation: rotateSpinner 2s linear infinite;
+}
+.spinner .path {
+    @apply stroke-amber-500 dark:stroke-amber-200;
+    stroke-linecap: round;
+    -webkit-animation: dashSpinner 1.5s ease-in-out infinite;
+            animation: dashSpinner 1.5s ease-in-out infinite;
+}
+
+
+.invalid {
+    @apply !text-rose-900 dark:!text-rose-600 !placeholder-rose-300 dark:!placeholder-rose-500 !border-rose-600 dark:!border-rose-300 ;
+}
+
+.invalid.\!text-transparent,.invalid.\!dark\:text-transparent{
+    color: transparent !important;
+}
+
+.has-error .input-icon{
+    @apply !text-rose-900 dark:!text-rose-600;
+}
+
+.error-message {
+    @apply sm:pl-2.5 mt-0.25 text-xs font-medium text-rose-600 dark:text-rose-200;
+}
+
+.disabled, :disabled{
+    pointer-events: none;
+    opacity: .5;
+}
+
+.hidden-error .error-message{
+    @apply !hidden;
+}
+
+@-webkit-keyframes rotateSpinner {
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateSpinner {
+    100% {
+      transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes dashSpinner {
+    0% {
+      stroke-dasharray: 1, 150;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -35;
+    }
+    100% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -124;
+    }
+}
+@keyframes dashSpinner {
+    0% {
+      stroke-dasharray: 1, 150;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -35;
+    }
+    100% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -124;
+    }
+}

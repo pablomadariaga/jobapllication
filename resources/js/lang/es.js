@@ -1,0 +1,61 @@
+export default {
+    name: "nombre",
+    permanent_phone: "teléfono permanente",
+    first_name: "nombre",
+    last_name: "apellido",
+    present_zip: "código postal actual",
+    present_phone: "teléfono actual",
+    permanent_address: "dirección permanente",
+    permanent_zip: "código postal permanente",
+    present_address: "Dirección actual",
+    start_date: "fecha de inicio",
+    position: "puesto",
+    permanent_state: "estado permanente",
+    permanent_city: "ciudad permanente",
+    present_state: "estado actual",
+    present_city: "ciudad actual",
+    account: "cuenta",
+    username: "nombre de usuario",
+    password: "contraseña",
+    email: "correo electrónico",
+    identification: "identificación",
+    password_confirmation: "confirmación de la contraseña",
+    current_password: "contraseña actual",
+    confirmable_password: "contraseña confirmable",
+    role: "rol",
+    description: "descripción",
+    unit: "unidad",
+    code: "código",
+    value: "valor",
+    image: "imagen",
+    next: "Siguiente",
+    close: "cerrar",
+    requesting_process: "proceso que solicita",
+    measurement_unit: "unidad de medida",
+    role_permissions: "permisos de rol",
+    requiredIf: `[FIELD] es obligatorio`,
+    "Select an option": "Seleccione una opción",
+    Search: "Buscar",
+    "Sorry nothing to see here": "Lo siento, nada que ver aquí",
+    "At least 2 characters": "Al menos 2 caracteres",
+    "Start typing to search": "Empieza a escribir para buscar",
+    Searching: "Buscando",
+    "The wallet is incorrectly formatted":
+        "La billetera  tiene un formato incorrecto",
+    "Password confirmation needs to match password":
+        "La confirmación de la contraseña debe coincidir con la contraseña",
+    expired_page:
+        "Esta página ha caducado.\nLa página se actualizará, vuelva a iniciar sesión si es necesario",
+    tour_menu:
+        "Aquí puede encontrar un menú lateral con cada sección dentro del sistema, algunos contienen un submenú para acceder a la lista o creación del menú seleccionado",
+    tour_bars:
+        "Al hacer clic aquí puede ocultar/ver el menú lateral para aprovechar al máximo el espacio de la aplicación según la necesidad",
+    tour_customizer:
+        "Aquí encontrarás el personalizador del sistema, donde puedes cambiar el idioma y el esquema de colores",
+    tour_cutomizer_menu:
+        "Puede alternar el color de la plataforma y cambiar el idioma",
+    tour_profile_menu:
+        "Aquí puedes administrar la información de tu perfil y cerrar tu sesión",
+    tour_dashboard:
+        "Aquí encontrará un resumen de las transacciones dentro del sistema y algunos accesos directos",
+};
