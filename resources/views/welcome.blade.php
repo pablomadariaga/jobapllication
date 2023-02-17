@@ -330,8 +330,8 @@
                             id="rank" />
                     </div>
                 </div>
-                <input type="hidden" x-model="selectedCompany" name="company_id" id="company_id"> --}}
                 {{-- Former employers --}}
+                <input type="hidden" x-model="selectedCompany" name="company_id" id="company_id"> --}}
                 <hr class="border-amber-600 mb-2">
                 <h3 class="font-semibold mb-2">{{__('Former employers')}}</h3>
                 <hr class="border-amber-600 mb-4">
